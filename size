@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	
+	list<int> s;
+
+	
+s.push_back(107);
+s.push_back(420);
+s.push_back(630);
+s.push_back(470);
+
+	// getting size of the list
+	int size = s.size();
+
+	cout << "number of elements " << size << " elements";
+
+	return 0;
+}
